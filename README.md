@@ -1,5 +1,5 @@
 # Exploded-View
-(python) Exploded View
+(python) Explosion
 
 ## Example
 
