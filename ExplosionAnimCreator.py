@@ -147,7 +147,7 @@ class AnimExplode(object):
 
                 normal = OpenMaya.MVector()
                 polyIter.getNormal(normal, OpenMaya.MSpace.kWorld)
-                if self.intersectRayWithSquare(ori, v0, points[0], points[1], points[2], normal, t) == True:
+                if self.intersectRayWithSquare(ori, v0, points[0], points[1], points[3], normal, t) == True:
                     if (normal * rayDir) <= 0:
                         totalFactor = 0.0
                         placePos = OpenMaya.MVector(0.0, 0.0, 0.0)
